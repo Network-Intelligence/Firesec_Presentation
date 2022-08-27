@@ -1,0 +1,289 @@
+@import url(fonts.css);
+
+
+
+/*  Fallback message */
+
+.fallback-message {
+    font-family: sans-serif;
+    line-height: 1.3;
+
+    width: 780px;
+    padding: 10px 10px 0;
+    margin: 20px auto;
+
+    border: 1px solid #E4C652;
+    border-radius: 10px;
+    background: #EEDC94;
+}
+
+.fallback-message p {
+    margin-bottom: 10px;
+}
+
+.impress-supported .fallback-message {
+    display: none;
+}
+
+body {
+    font-family: 'PT Sans', sans-serif;
+    min-height: 740px;
+	background-image: url("../images/3.png");
+    color: rgb(102, 102, 102);
+}
+#overview {
+    background: none;
+    border: none;
+    box-shadow: none;
+    width: 1800px;
+    height: 1300px;
+}
+
+#overview div {
+    width: 100%;
+    height: 100%;
+}
+
+#topright {
+  position: absolute;
+  top: 2px;
+  right: 50px;
+}
+
+img {
+width: 240px;
+height: 180px;
+}
+
+#niweb {
+ position: absolute;
+  top: 30px;
+  right: 60px;
+}
+
+p {
+font-family: 'Roboto';
+color: white;
+}
+
+.step {
+    position: relative;
+    width: 1000px;
+    height: 1000px;
+    padding: 40px 60px;
+    margin: 20px auto;
+
+    box-sizing: border-box;
+
+    line-height: 1.5;
+
+    background-color: #582A90;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, .1);
+
+    text-shadow: 0 2px 2px rgba(0, 0, 0, .1);
+
+    font-family: 'Roboto', Arial, sans-serif;
+    font-size: 40pt;
+    letter-spacing: -1px;
+    border: solid 2px #911961;
+
+    opacity: 40%;
+}
+
+.step.active {
+    opacity: 100%;
+}
+
+.step.ring2.active {
+    opacity: 100%;
+}
+
+.step.ring2 {
+    background-color: #911961;
+	position: absolute;
+	top: 50px;
+	width: 1000px;
+	height:1000px;
+	padding: 40px 60px;
+	margin: 20px auto;
+	box-sizing: border-box;
+	line-height: 1;
+	border-radius: 10px;
+	box-shadow: 0 2px 6px rgba(0, 0, 0, .1);
+    text-shadow: 0 2px 2px rgba(0, 0, 0, .1);
+    font-family: 'Roboto', Arial, sans-serif;
+    font-size: 40pt;
+    letter-spacing: -1px;
+    border: solid 2px #582A90;
+    opacity: 40%;
+}
+
+.step.box {
+    background-color: white;
+    opacity: 70%;
+}
+
+.step.box1 {
+    background-color: lightblue;
+}
+
+.productTitle {
+	font-family: Jost;
+	color: 	#FCE205;	
+}
+
+.footer {
+	position: absolute;
+	bottom: 40px;
+	left: 25%;
+	text-align: center;
+	color: #ffff19;
+}
+
+.tagline {
+	position: absolute;
+	top: 10px;
+	left: 60px;
+	text-align:center;
+	color: white;	
+}
+
+.verticalLine {
+	border-left: 2px solid #FCE205;
+	height: 50px;
+	padding: 25px 25px;
+}
+
+.vSeparator {
+	border-left: 2px solid #FCE205;
+	height: 50px;
+	padding: 5px;
+}
+
+.vSeparatorInContent {
+	border-left: 3px solid #FCE205;
+	height: 40px;
+	padding: 5px;
+}
+
+.vSeparatorLogo {
+	border-left: 3px solid #FCE205;
+	height: 130px;
+	padding: 5px;
+}
+
+.horizontalLine {
+	position: absolute;
+	top: 190px;
+	left: 55px;
+	text-align:center;
+	width: 395px;
+	height: 10px;
+	background-image: linear-gradient(to right, #b61a3f, #b31844, #a9194c, #a21257, #a01855, #911961, #801a7b, #731e7a, #582a90);
+}
+
+.hSeperator {
+	position: absolute;
+	top: 190px;
+	left: 55px;
+	text-align:center;
+	width: 395px;
+	height: 10px;
+	background-image: linear-gradient(to right, #b61a3f, #b31844, #a9194c, #a21257, #a01855, #911961, #801a7b, #731e7a, #582a90, #FCE205);
+}
+
+.brandelement {
+    bottom: 1px;
+    right: 4px;
+    position: absolute;
+	transform: rotate(-110.00deg);
+}
+
+
+.slideContent {
+	font-family: Jost;
+	font-size: 46px;
+	text-align:justify;
+}
+
+.contentHeaderPrimary {
+	font-family: Roboto;
+	font-size: 54px;
+	text-align:justify;
+	color: #FCE205;
+}
+
+.contentHeaderSecondary {
+	font-family: Roboto;
+	font-size: 54px;
+	text-align:justify;
+	color: #FCE205;
+}
+
+.social
+{
+	text-align: center;
+	padding-top: 20px;
+}
+
+.offices
+{
+	text-align: center;
+	padding-bottom:10px;
+	font-family: Jost;
+	font-size: 36px;
+
+}
+
+.slideLogo {
+	align:center;
+	margin-top: 10px;
+    padding-left: 40px;
+    margin-left: 150px;
+}
+
+#socialWeb,#socialTwitter,#socialMail {
+	height: 90px;
+    width: 90px;
+	padding: 5px;
+}
+
+#slideNILogo
+{
+	height: 345px;
+    width: 460px;
+}
+
+#intlogos 
+{
+	height: 135px;
+    width: 180px;
+	margin: 25px;
+}
+
+#otherlogos 
+{
+	height: 113px;
+    width: 150px;
+	margin-right: 25px;
+	margin-left: 15px;
+}
+
+#techlogos 
+{
+	height: 210px;
+    width: 250px;
+	padding: 15px;
+	margin: 15px;
+}
+
+#otherintegrations {
+	height: 32px;
+}
+
+.disclaimer
+{
+	font-size:24px;
+	font-style:italic;
+}
