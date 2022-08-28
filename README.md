@@ -15,9 +15,9 @@ It is an automated solution for security configuration analysis and compliance r
 
 ### Credits:
 
-This site is built using **[impress.js](https://impress.js.org/) [EFF](https://eff.org)** 
+This site is built using **[impress.js](https://impress.js.org/)** 
 
-> It is an open source project, please find the source code on [github](https://github.com/impress/impress.js/)
+> Impress.js is an open source project, please find its source code on [Github](https://github.com/impress/impress.js/)
 
 #### Disclaimer:
 
