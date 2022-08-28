@@ -9,7 +9,7 @@ It is an automated solution for security configuration analysis and compliance r
 
 ## Firesec Presentation
 
-[View the presentation](https://presentation.firesec.io/presentation.html)
+[View the presentation](https://presentation.firesec.io/presentation.html?impress-autoplay=8)
 
 > For Auto Play, please click on the **play icon** at the bottom right of your screen.
 
